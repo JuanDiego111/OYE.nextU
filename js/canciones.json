@@ -1,0 +1,85 @@
+{
+	"canciones": [
+	
+		{
+			"nombre": "Party Rock Athem-LMFAO",
+			"ruta": "/MUSIC%20PROYECT/Music/LMFAO%20ft%20Lauren%20Bennett%20GoonRock%20%20Party%20Rock%20Anthem%20Official%20Audio.mp3",
+			"reproducciones": 10,
+			"icono": 4,
+			"pic":"/MUSIC%20PROYECT/img/img1.png",
+			"des":"Party Rock Anthem” is the first single off Party Rock Anthem’s sophomore album Sorry for Party Rocking."
+		},
+		{
+			"nombre": "The One That Got Away  Katy Perry",
+			"ruta": "/MUSIC%20PROYECT/Music/The%20One%20That%20Got%20Away%20%20Katy%20Perry%20%20Espa%c3%b1ol.mp3",
+			"reproducciones": 30,
+			"icono": 1,
+			"pic":"/MUSIC%20PROYECT/img/img2.jpg",
+			"des":"Summer after high school, when we first met..."
+		},
+		{
+			"nombre": "Big Sean  Dance A$$ Remix ft Nicki Minaj",
+			"ruta": "/MUSIC%20PROYECT/Music/Big%20Sean%20%20Dance%20A%20Remix%20ft%20Nicki%20Minaj%20Official%20Music%20Video.mp3",
+			"reproducciones": 20,
+			"icono": 3,
+			"pic":"/MUSIC%20PROYECT/img/img3.jpg",
+			"des":"Dance (Ass), often stylized Dance (A$$), is a song by American rapper Big Sean, released as the third single from his debut studio album, Finally Famous (2011)."
+		},
+		{
+			"nombre": "LMFAO  Sexy and I Know It",
+			"ruta": "/proyecto1/MUSIC%20PROYECT/Music/LMFAO%20%20Sexy%20and%20I%20Know%20It%20Official%20Video.mp3",
+			"reproducciones": 80,
+			"icono": 2,
+			"pic":"/MUSIC%20PROYECT/img/img.4.gif",
+			"des":"«Sexy and I Know It» —en español: soy sexy y lo sé— es una canción interpretada por el grupo estadounidense de electro hop LMFAO."
+		},
+		{
+			"nombre": "Someone Like You  Adele",
+			"ruta": "/MUSIC%20PROYECT/Music/Someone%20Like%20You%20%20Adele%20Lyrics.mp3",
+			"reproducciones": 40,
+			"icono": 4,
+			"pic":"/MUSIC%20PROYECT/img/img5.jpg",
+			"des":"'Someone Like You' es una de las canciones más emblemáticas de la carrera de Adele. Se trata de una canción que habla acerca de un rompimiento amoroso."
+		},
+		{
+			"nombre": "Bruno Mars It Will Rain",
+			"ruta": "/MUSIC%20PROYECT/Music/Bruno%20Mars%20It%20Will%20Rain%20Traducida%20al%20espa%c3%b1ol.mp3",
+			"reproducciones": 70,
+			"icono": 1,
+			"pic":"/MUSIC%20PROYECT/img/img6.jpg",
+			"des":"If you ever leave me, baby Leave some morphine at my door 'Cause it would take a whole lot of medication.."
+		},
+		{
+			"nombre": "JayZ  Kanye West  NIAS IN PARIS ESH Remix",
+			"ruta": "/MUSIC%20PROYECT/Music/JayZ%20%20Kanye%20West%20%20NIAS%20IN%20PARIS%20ESH%20Remix%20%20BMW%20X5M%20vs%20ML63%20AMG%20%20LIMMA.mp3",
+			"reproducciones": 90,
+			"icono": 3,
+			"pic":"/MUSIC%20PROYECT/img/img7.jpg",
+			"des":"JayZ Kanye West NIAS IN PARIS ESH Remix BMW X5M vs ML63 AMG "
+		},
+		{
+			"nombre": "Rihanna Feat Calvin Harris  We Found Love",
+			"ruta": "/MUSIC%20PROYECT/Music/Rihanna%20Feat%20Calvin%20Harris%20%20We%20Found%20Love%20Inout%20Sax%20Remix.mp3",
+			"reproducciones": 60,
+			"icono": 1,
+			"pic":"/MUSIC%20PROYECT/img/img8.jpg",
+			"des":"«We Found Love» —en español: encontramos el amor— es una canción interpretada por la cantante barbadense Rihanna, con la colaboración del disc-jockey y productor británico Calvin Harris. en la cual la cantante habla de «encontrar el amor donde no hay esperanza» "
+		},
+		{
+			"nombre": "Flo Rida  Good Feeling",
+			"ruta": "/MUSIC%20PROYECT/Music/Flo%20Rida%20%20Good%20FeelingLyrics%20on%20screen.mp3",
+			"reproducciones": 40,
+			"icono": 2,
+			"pic":"/MUSIC%20PROYECT/img/img9.jpg",
+			"des":"Oh, oh, oh, oh, oh, sometimes I get a good feeling, yeah... I get a feeling that I never never never never had before..."
+		},
+		{
+			"nombre": "Set Fire to the Rain",
+			"ruta": "/MUSIC%20PROYECT/Music/Set%20Fire%20to%20the%20Rain.mp3",
+			"reproducciones": 50,
+			"icono": 2,
+			"pic":"/MUSIC%20PROYECT/img/img10.jpg",
+			"des":"I let it fall, my heart, And as it fell, you rose to claim it..."
+		}
+	]
+}
