@@ -1,7 +1,7 @@
 
   function cargarDatos(){
     $.ajax({
-        url:"https://raw.githubusercontent.com/JuanDiego111/OYE.nextU/main/js/canciones.json"
+        url:"https://github.com/JuanDiego111/OYE.nextU/blob/main/js/canciones.json"
     }).done(function(canciones){
         
         var newData = canciones.canciones.sort(function (a, b) {
