@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <title>Music Point!</title>
+  </head>
+  <body>
+    <h1><svg width="50px"  xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Logo Tableau</title><path d="M242.69 340.3h26.62v-72.6h67v-25.82h-67v-72.6h-26.62v72.6h-66.15v25.82h66.15zM119.26 445.18h22.59v-64.54h59.7v-20.17h-59.7v-65.34h-22.59v65.34h-59.7v20.17h59.7zM370.15 212h22.59v-64.5h60.5v-19.37h-60.5V62.79h-22.59v65.34h-59.7v19.37h59.7zM246.72 496h19.36v-46h41.15v-16.92h-41.15v-46h-19.36v46h-40.33V450h40.33zM120.07 212h21v-65.31h60.51v-18.56H141V62.79h-21v65.34H59.56v18.56h60.51zM435.72 308.84h19.36v-45.18H496v-17.74h-40.92v-45.18h-19.36v45.18h-40.33v17.74h40.33z"/><path fill-rule="evenodd" d="M370.15 445.18h22.59v-64.54h60.5v-20.17h-60.5v-65.34h-22.59v65.34h-59.7v20.17h59.7z"/><path d="M307 74.08V60.37h-40.34V16h-14.52v44.37h-40.33v13.71h40.33v44.37h14.52V74.08zM56.11 305.61h14.52v-44.37H111v-13.71H70.63V204H56.11v43.56H16v14.52l40.11-.08z"/></svg>Music Point!</h1>
+<div class="container-fluid bg-danger ">
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-auto">
+                            <a class="navbar-brand" href="index.html">MPoint...<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="10%"><path d="M335.72 330.76C381.73 299.5 416 251.34 416 192a160 160 0 00-320 0v206.57c0 44.26 35.74 81.43 80 81.43h0c44.26 0 66.83-25.94 77.29-40 14.77-19.81 41.71-81.56 82.43-109.24z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M160 304V184c0-48.4 43.2-88 96-88h0c52.8 0 96 39.6 96 88" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M160 239c25-18 79.82-15 79.82-15 26 0 41.17 29.42 26 50.6 0 0-36.86 42.4-41.86 61.4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav lead flex-column">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" href="music.html">Canciones</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="login.html">Login</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="registro.html" tabindex="-1" aria-disabled="false">Registro</a>
+                                  </li>
+                                  <li>
+                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Contact Us...
+                                      </button>
+                                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLabel">Let us hear you</h5>
+                                             </div>
+                                            <div class="modal-body">
+                                                <ul>
+                                                    <li class="list-unstyled"> <a class="link-dark" href="https://www.lamega.com.gt/"><svg width="5%" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Globe</title><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path d="M256 48c-58.07 0-112.67 93.13-112.67 208S197.93 464 256 464s112.67-93.13 112.67-208S314.07 48 256 48z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path d="M117.33 117.33c38.24 27.15 86.38 43.34 138.67 43.34s100.43-16.19 138.67-43.34M394.67 394.67c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43 16.19-138.67 43.34" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" d="M256 48v416M464 256H48"/></svg></a></li>
+                                                    <li class="list-unstyled">Tel. oficina +502 2505-1212</li>
+                                                    <li class="list-unstyled">Tel. cabina +502 2505-1227 / 1277</li>
+                                                    <li class="list-unstyled"> WhatsApp +502 5514-7777</li>
+                                                </ul>
+                                                
+                                               
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                       
+                                  </li>
+                                </ul>
+                              </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid table-responsive">
+  <div class="row">
+    <div class="col-12">
+      <h4 class="cargar">Play List</h4>
+      <table class="table" >
+        <tbody>
+          <tr>
+            <th scope="row">   <div id="pic4"></div> </th>
+            <td>                <h5 class="card-title"><div id="top4"></div></h5>
+                                  <div id="ruta4"></div>
+            </td>
+            <td>               <p id="des4" class="card-text"></p></td>           
+          </tr>
+          <tr>
+            <th scope="row">   <div id="pic8"></div> </th>
+            <td>                <h5 class="card-title"><div id="top8"></div></h5>
+                                  <div id="ruta8"></div>
+            </td>
+            <td>               <p id="des8" class="card-text"></p></td>           
+          </tr>
+          <tr>
+            <th scope="row">   <div id="pic12"></div> </th>
+            <td>                <h5 class="card-title"><div id="top12"></div></h5>
+                                  <div id="ruta12"></div>
+            </td>
+            <td>               <p id="des12" class="card-text"></p></td>           
+          </tr>
+          <tr>
+            <th scope="row">   <div id="pic16"></div> </th>
+            <td>                <h5 class="card-title"><div id="top16"></div></h5>
+                                  <div id="ruta16"></div>
+            </td>
+            <td>               <p id="des16" class="card-text"></p></td>           
+          </tr>
+          <tr>
+            <th scope="row">   <div id="pic20"></div> </th>
+            <td>                <h5 class="card-title"><div id="top20"></div></h5>
+                                  <div id="ruta20"></div>
+            </td>
+            <td>               <p id="des20" class="card-text"></p></td>           
+          </tr>
+          <tr>
+            <th scope="row">   <div id="pic24"></div> </th>
+            <td>                <h5 class="card-title"><div id="top24"></div></h5>
+                                  <div id="ruta24"></div>
+            </td>
+            <td>               <p id="des24" class="card-text"></p></td>           
+          </tr>
+          <tr>
+            <th scope="row">   <div id="pic28"></div> </th>
+            <td>                <h5 class="card-title"><div id="top28"></div></h5>
+                                  <div id="ruta28"></div>
+            </td>
+            <td>               <p id="des28" class="card-text"></p></td>           
+          </tr>
+          <tr>
+            <th scope="row">   <div id="pic32"></div> </th>
+            <td>                <h5 class="card-title"><div id="top32"></div></h5>
+                                  <div id="ruta32"></div>
+            </td>
+            <td>               <p id="des32" class="card-text"></p></td>           
+          </tr>
+          <tr>
+            <tr>
+              <th scope="row">   <div id="pic36"></div> </th>
+              <td>                <h5 class="card-title"><div id="top36"></div></h5>
+                                    <div id="ruta36"></div>
+              </td>
+              <td>               <p id="des36" class="card-text"></p></td>           
+            </tr>       
+            <tr>
+              <th scope="row">   <div id="pic40"></div> </th>
+              <td>                <h5 class="card-title"><div id="top40"></div></h5>
+                                    <div id="ruta40"></div>
+              </td>
+              <td>               <p id="des40" class="card-text"></p></td>           
+            </tr>       
+        </tbody>
+      </table>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="https://www.billboard.com/" class="nav-link px-2 text-muted">Comparte musica...</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">@Derechos Reservados</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2022 OYE CO.</p>
+    </footer>
+  </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script src="js/js4.js"></script>
+  </body>
+</html>
