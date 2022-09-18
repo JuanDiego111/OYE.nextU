@@ -11,7 +11,7 @@
 		},
 		{
 			"nombre": "The One That Got Away  Katy Perry",
-			"ruta": "./Music/The%20One%20That%20Got%20Away%20%20Katy%20Perry%20%20Espa%c3%b1ol.mp3",
+			"ruta": "https://github.com/JuanDiego111/OYE.nextU/blob/main/Music/The%20One%20That%20Got%20Away%20%20Katy%20Perry%20%20Espa%C3%B1ol.mp3",
 			"reproducciones": 30,
 			"icono": 1,
 			"pic":"./imagen/img2.jpg?raw=true",
