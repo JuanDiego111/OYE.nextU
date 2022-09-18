@@ -2,7 +2,7 @@
 function cargarPlaylist(){
    
     $.ajax({
-        url:"https://github.com/JuanDiego111/OYE.nextU/blob/main/js/canciones.json"
+        url:"./js/canciones.json"
     }).done(function(canciones){
 
         var newData = canciones.canciones.sort(function (a, b) {
